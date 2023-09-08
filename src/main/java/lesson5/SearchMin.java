@@ -29,7 +29,7 @@ public class SearchMin {
         // коли ми ділемо ЗНАЧЕННЯ МАССИВУ, тобто numbers2[i] % 2 == 0 ми перевіряємо що саме елемент парний, а не його порядок в массиві
 
 
-        int[] queueToBar = {22, 33, 19, 21, 55, 14, 15};
+        int[] queueToBar = {22, 33, 9, 21, 55, 14, 15};
 
         for (int i = 0; i < queueToBar.length; i++) {
             if ( queueToBar[i]  < 18) {
