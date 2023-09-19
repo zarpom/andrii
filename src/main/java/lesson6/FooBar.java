@@ -34,5 +34,14 @@ public class FooBar {
             System.out.println("Є гроші");
         }
 
+        for (int i = 0; i < 45; i = i + 1) {
+
+            if(i == 20){
+                System.out.println(i);
+            } else if (i > 40) {
+                System.out.println("лол я більше 40 =" + i);
+            }
+        }
+
     }
 }
